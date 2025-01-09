@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.Top-Bar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.logo img {
+    width: auto;
+    height: 100px;
+}
+
+.logo {
+    text-align: center;
+}
+
+nav {
+    padding: 20px 0;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 40px;
+    padding: 0;
+    margin-left: 20px;
+}
+
