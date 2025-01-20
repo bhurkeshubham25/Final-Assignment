@@ -1,40 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css"
+      integrity="sha512-gRH0EcIcYBFkQTnbpO8k0WlsD20x5VzjhOA1Og8+ZUAhcMUCvd+APD35FJw3GzHAP3e+mP28YcDJxVr745loHw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" >
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css"
-        integrity="sha512-gRH0EcIcYBFkQTnbpO8k0WlsD20x5VzjhOA1Og8+ZUAhcMUCvd+APD35FJw3GzHAP3e+mP28YcDJxVr745loHw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="Top-Bar">
-                <div class="logo">
-                    <img src="logo_apple.webp" alt="">
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>Home</li>
-                        <li>Products</li>
-                        <li>About Us</li>
-                        <li>Services</li>
-                        <li>Contact Us</li>
-                    </ul>
-                </div>
-                <div class="icons">
-                    <i class="fas fa-search"></i>
-                    <i class="fas fa-user"></i>
-                    <i class="fas fa-shopping-cart"></i>
-                    <i class="fas fa-sign-out-alt"></i>
-                </div>
+      <div class="sub-header">
+        <div class="container sub-headercontainer">
+          <div class="row">
+            <div class="col-lg-8 col-md-8">
+              <ul class="info">
+                <li><i class="fas fa-envelope-square"></i>info@company.com</li>
+                <li>
+                  <i class="far fa-address-card"></i>Sunny Isles Beach, FL 33160
+                </li>
+              </ul>
             </div>
-        </nav>
+            <div class="col-lg-4 col-md-4">
+              <ul class="social-icons">
+                <li>
+                  <a href="#">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <nav class="main-nav">
+                <div class="logo">
+                  <a href="#">VILLA</a>
+                </div>
+                <div class="main-nav-content">
+                  <ul class="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Properties</a></li>
+                    <li><a href="#">Properties Details</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
-</body>
 
+    <!-- Banner section -->
+
+    <section class="main-banner">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/banner.1.jpg"
+              class="d-block w-100 banner-img"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block Slide">
+              <div class="d-flex justify-content-center slider-content">
+                <h5 class="banner-head1">Toronto,</h5>
+                <h5 class="banner-head">Canada</h5>
+              </div>
+              <p>HURRY!, GET THE BEST VILLA FOR YOU</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/banner.2.jpg"
+              class="d-block w-100 banner-img"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block Slide">
+              <div class="d-flex justify-content-center slider-content">
+                <h5 class="banner-head1">Melbourne,</h5>
+                <h5 class="banner-head">Australia</h5>
+              </div>
+              <p>BE QUICK!, GET THE BEST VILLA IN TOWN</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/banner.3.jpg"
+              class="d-block w-100 banner-img opacity-50"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block Slide">
+              <div class="d-flex justify-content-center slider-content">
+                <h5 class="banner-head1">Miami,</h5>
+                <h5 class="banner-head">South Florida</h5>
+              </div>
+              <p>ACT NOW!, GET THE HIGHEST LEVEL PENTHOUSE</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Featured section -->
+
+    <section class="featured-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="left-image">
+              <img src="images/img.1.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="featured-section-heading">
+              <h6>| Featured</h6>
+              <h2>Best Appartment & Sea view</h2>
+            </div>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Best useful links ?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Get
+                    <strong>the best villa</strong> that cannot be lost or stolen, nor can it be carried away. Purchased with common sense, paid for in full, and managed with reasonable care, it is about the safest investment in the world.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Own your dream house ?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Home is where our story begins…</strong> The magic thing about home is that it feels good to leave, and it feels even better to come back.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Why is villa agency best ?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Every person</strong> who invests in well-selected real estate in a growing section of a prosperous community adopts the surest and safest method of becoming independent, for real estate is the basis of wealth.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="info-table">
+              <ul>
+                <li>
+                  <div class="info-table-content"><i class="fas fa-home"></i>
+                <h4>
+                  250 m2
+                <br>
+              <span>Total flat space</span></h4></div></li>
+              <li>
+                <div class="info-table-content">
+                  <i class="fas fa-file-contract"></i>
+              <h4>Contract<br>
+              <span>Contact Ready</span></h4></div>
+            </li>
+              <li>
+                <div class="info-table-content">
+                  <i class="fas fa-money-check-alt"></i>
+                  <h4>Payment<br>
+              <span>Payment Process</span></h4></div>
+            </li>
+              <li>
+                <div class="info-table-content">
+                <i class="fas fa-user-shield"></i>
+                <h4>Safety<br>
+                <span>24 / 7 Under Control</span></h4></div>
+              </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
